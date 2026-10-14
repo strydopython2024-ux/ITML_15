@@ -1,0 +1,58 @@
+CROPS,TYPE_OF_CROP,SOIL,SEASON,SOWN,HARVESTED,WATER_SOURCE,SOIL_PH,SOIL_PH_HIGH,CROPDURATION,CROPDURATION_MAX,TEMP,MAX_TEMP,WATERREQUIRED,WATERREQUIRED_MAX,RELATIVE_HUMIDITY,RELATIVE_HUMIDITY_MAX,N,N_MAX,P,P_MAX,K,K_MAX
+rice,cereals,Alluvial soil,kharif,Jun,Sep,irrigated,7.6,8.0,116.9,150,26.9,40,2462.3,2500,73.8,80,82.4,100,40.7,60,42.2,60
+wheat,cereals,well-drained soil,rabi,Oct,Apr,irrigated,6.2,7.0,80.4,90,22.1,24,636.8,650,57.6,60,118.9,120,51.5,60,47.9,60
+maize,millets,Red soil,kharif,Jun,Sep,irrigated,5.7,7.0,109.0,110,24.0,27,705.4,800,65.5,85,161.0,180,87.6,90,84.5,90
+sorghum,millets,Loamy soil,kharif,Jun,Sep,irrigated,6.8,7.5,96.3,105,24.5,40,483.7,650,91.3,100,63.6,80,58.5,60,42.3,60
+Pearl millet,millets,Clay soil,kharif,Jun,Sep,irrigated,7.2,7.5,85.0,85,25.3,45,404.1,500,89.8,95,43.2,60,39.8,40,23.7,40
+ragi,millets,Red soil,kharif,Jun,Sep,irrigated,7.8,8.2,108.9,120,18.6,27,901.0,1200,19.5,20,36.5,40,22.1,30,22.0,30
+panivaragu,millets,sandy Loamy soil,kharif,Jun,Sep,irrigated,5.6,7.0,74.3,75,40.4,45,345.6,350,19.4,20,31.4,40,20.9,30,27.5,30
+samai,millets,Loamy soil,kharif,Jun,Sep,irrigated,8.7,9.0,99.9,100,29.8,40,632.6,750,19.9,20,35.8,40,26.7,30,24.4,30
+thinai,millets,Alluvial soil,kharif,Jun,Sep,irrigated,6.3,7.0,85.2,90,28.3,29,519.2,900,18.1,20,32.1,40,20.1,30,20.8,30
+varagu,millets,Clay soil,kharif,Jun,Sep,rainfed,6.4,6.5,120.0,120,26.1,27,501.0,900,19.8,20,33.9,40,23.9,30,23.7,30
+kudiraivali,millets,Loamy soil,kharif,Jun,Sep,rainfed,6.5,7.0,77.2,95,20.0,20,748.2,900,16.6,20,44.0,60,39.7,40,22.0,40
+blackgram,pulses,Sandy soil,rabi,Oct,Apr,irrigated,6.8,7.8,74.1,75,30.6,42,818.6,1000,17.4,18,35.0,40,23.3,40,33.5,40
+greengram,pulses,well-drained soil,rabi,Oct,Apr,irrigated,6.6,7.5,100.0,100,30.6,35,854.7,1000,61.9,70,26.0,40,24.6,40,39.9,40
+cowpea,pulses,well-drained soil,rabi,Oct,Apr,irrigated,6.1,6.5,82.9,90,27.9,30,420.8,700,50.9,55,40.3,60,30.5,40,23.5,40
+bengalgram,pulses,medium Black Soil,rabi,Oct,Apr,irrigated,5.7,7.0,98.5,120,25.6,30,701.0,1000,60.0,60,49.6,60,29.3,40,27.6,40
+horsegram,pulses, light soi,rabi,Oct,Apr,rainfed,6.1,7.5,101.7,105,38.1,40,800.0,800,51.9,80,40.4,60,21.1,40,40.0,40
+redgram,pulses,deep soil,rabi,Oct,Apr,rainfed,6.6,7.0,131.1,150,24.3,30,1122.6,1400,76.2,81,42.1,60,33.3,40,35.5,40
+soyabean,pulses,well-drained soil,kharif,Jun,Sep,irrigated,6.4,7.0,91.8,100,24.1,32,613.4,700,82.9,92,56.2,80,32.5,40,27.2,40
+groundnut,oil seeds,well-drained soil,kharif,Jun,Sep,irrigated,6.6,7.0,147.5,150,28.7,47,676.0,700,65.0,65,57.6,80,42.1,60,46.0,60
+sunflower,oil seeds,Loamy soil,kharif,Jun,Sep,irrigated,7.2,8.0,86.2,95,23.2,25,472.1,500,86.2,98,71.6,80,26.3,40,33.2,40
+gingely,oil seeds,Loamy soil,kharif,Jun,Sep,irrigated,6.0,8.0,89.7,90,29.8,35,396.3,400,88.0,100,33.0,40,37.2,40,38.1,40
+castor,oil seeds,Loamy soil,kharif,Jun,Sep,irrigated,8.3,8.5,150.9,160,22.3,26,500.0,500,80.4,100,66.2,80,33.8,40,30.3,40
+cotton,fibre crop,Black Soil,kharif,Jun,Sep,irrigated,7.6,8.0,138.5,140,29.0,30,1008.1,1300,75.1,90,119.1,120,52.2,60,57.9,60
+jute,fibre crop,Sandy soil,kharif,Jun,Sep,irrigated,6.7,7.5,138.4,140,29.7,38,1093.0,1300,84.8,90,96.6,100,30.7,50,48.9,50
+sugarcane,sugar crops,clay Loamy soil,kharif,Jun,Sep,irrigated,6.8,8.0,314.9,330,21.0,27,2235.0,2500,65.1,80,169.5,200,89.7,100,138.5,150
+sugarbeet,sugar crops,well-drained soil,kharif,Jun,Sep,irrigated,7.3,8.0,178.7,180,20.7,25,636.4,800,73.5,80,146.2,150,60.7,80,74.4,80
+tomato,vegetables,sandy Loamy soil,Zaid,Mar,Mar,irrigated,7.4,7.5,91.4,140,20.1,30,625.6,800,81.6,85,149.4,150,62.1,80,96.9,120
+onion,vegetables,Loamy soil,Zaid,Mar,Mar,irrigated,6.0,6.5,101.4,120,23.1,25,457.2,550,79.5,85,144.5,150,77.3,80,85.5,120
+chillies,vegetables,Loamy soil,Zaid,Mar,Mar,irrigated,6.0,6.8,120.0,120,26.8,30,500.0,500,82.3,85,125.5,150,67.7,80,83.3,120
+Cabbage,colecrops,sandy Loamy soil,Zaid,Mar,Mar,irrigated,6.2,6.5,171.3,180,21.2,27,451.4,500,93.4,100,143.3,150,72.5,100,111.9,120
+bhendi,vegetables,Loamy soil,Zaid,Mar,Mar,irrigated,6.6,6.8,63.9,65,24.3,27,1682.6,2200,98.8,100,143.6,150,67.3,100,85.6,120
+brinjal,vegetables,Loamy soil,Zaid,Mar,Mar,irrigated,6.9,7.5,120.1,150,19.4,30,995.7,1200,90.0,90,102.1,150,47.9,80,86.7,120
+capsicum,vegetables,Loamy soil,Zaid,Mar,Mar,irrigated,6.6,7.0,60.0,60,20.8,30,808.5,1200,92.3,95,137.5,150,42.6,80,107.1,120
+pumpkin,vegetables,Loamy soil,Zaid,Mar,Mar,irrigated,6.0,7.0,115.9,120,22.1,27,1069.8,1200,68.6,70,82.3,100,55.1,80,82.8,100
+snake gourd,vegetables,Loamy soil,Zaid,Mar,Mar,irrigated,6.7,6.7,90.0,90,26.5,27,904.8,1200,86.8,90,75.4,100,43.2,80,98.4,100
+ribbed gourd,vegetables,sandy Loamy soil,Zaid,Mar,Mar,irrigated,6.9,7.5,125.0,125,31.8,35,1023.9,1200,81.2,85,97.4,100,71.7,80,96.1,100
+bottle gourd,vegetables,sandy Loamy soil,Zaid,Mar,Mar,irrigated,6.6,6.7,120.0,120,18.8,27,1031.6,1200,76.2,85,82.2,100,41.3,80,95.4,100
+bitter gourd,vegetables,well-drained loamy soil,Zaid,Mar,Mar,irrigated,7.0,7.0,56.3,60,29.5,30,1189.9,1200,90.0,92,92.4,100,68.7,80,72.1,100
+ash gourd,vegetables,sandy Loamy soil,Zaid,Mar,Mar,irrigated,6.1,6.7,120.0,120,25.5,31,1058.1,1200,64.2,75,80.7,100,71.1,80,66.4,100
+cucumber,vegetables,Loamy soil,Zaid,Mar,Mar,irrigated,6.9,7.5,120.0,120,30.6,35,1319.6,1500,60.7,70,66.9,100,47.0,60,42.4,60
+watermelon,vegetables,Sandy soil,Zaid,Mar,Mar,irrigated,7.4,7.5,81.5,85,25.1,27,1004.2,1200,81.5,85,99.3,120,45.9,60,77.0,100
+muskmelon,vegetables,sandy Loamy soil,Zaid,Mar,Mar,irrigated,6.7,7.5,81.7,100,33.8,35,970.6,1200,79.4,85,89.6,120,41.2,60,78.6,100
+tinda,vegetables,sandy Loamy soil,Zaid,Mar,Mar,irrigated,7.5,7.5,70.0,70,26.4,30,965.9,1200,84.9,85,75.7,100,55.3,60,59.6,60
+chowchow,vegetables,Loamy soil,Zaid,Mar,Mar,irrigated,6.1,6.5,150.0,150,21.1,22,1258.5,1500,80.8,85,60.8,100,48.3,60,48.2,60
+cluster bean,vegetables,sandy Loamy soil,Zaid,Mar,Mar,irrigated,7.7,8.5,78.1,90,21.5,25,980.8,1200,79.3,85,72.3,100,53.5,60,44.1,60
+vegetable cowpea,vegetables,sandy Loamy soil,Zaid,Mar,Mar,irrigated,5.7,6.0,88.3,90,24.4,30,1070.5,1200,81.8,85,81.8,100,44.2,60,51.1,60
+french bean,vegetables,well-drained loamy soil,Zaid,Mar,Mar,irrigated,6.0,6.0,46.5,50,13.9,27,1146.3,1200,76.2,85,99.6,100,53.8,60,54.0,60
+peas,vegetables,sandy Loamy soil,rabi,Oct,Apr,rainfed,6.6,7.5,63.6,70,24.1,30,1183.9,1200,80.4,90,115.5,120,59.2,60,55.0,60
+annual moringa,vegetables,sandy Loamy soil,Zaid,Mar,Mar,irrigated,6.5,8.0,213.4,240,25.7,35,943.5,1200,84.7,85,119.9,120,41.6,60,46.6,60
+carrot,Root&tuber,light Loamy soil,rabi,Oct,Apr,irrigated,6.7,7.0,75.0,75,19.8,20,1000.0,1000,68.9,70,95.1,120,76.9,100,87.4,100
+beetroot,Root&tuber,friable soil,rabi,Oct,Apr,irrigated,6.9,7.0,58.2,65,18.1,21,1000.0,1000,98.0,100,63.8,100,55.6,60,47.6,60
+radish,Root&tuber,well-grained deep loamy moist soil,rabi,Oct,Apr,irrigated,5.8,6.8,21.0,21,11.4,18,1000.0,1000,99.4,100,84.6,100,59.5,60,42.6,60
+sweet potato,Root&tuber,well-drained soil,rabi,Oct,Apr,irrigated,6.2,6.7,94.8,120,22.5,26,1000.0,1000,86.3,90,85.9,120,56.4,60,44.1,60
+tapoica,Root&tuber,red lateritic Loamy soil,rabi,Oct,Apr,irrigated,6.1,7.0,287.5,300,25.0,29,1000.0,1000,52.7,60,81.2,100,43.7,60,59.8,60
+elephant foot yam,Root&tuber,rich red Loamy soil,rabi,Oct,Apr,irrigated,6.0,7.0,240.0,240,31.0,35,1352.2,1500,81.7,85,81.1,100,53.8,60,44.1,60
+cauliflower,colecrops,sandy Loamy soil,rabi,Oct,Apr,irrigated,6.6,6.8,96.6,100,18.8,30,400.9,500,98.2,100,106.6,120,58.2,60,50.2,60
+small onion,bulbvegetables,sandy Loamy soil,Zaid,Mar,Mar,irrigated,6.4,7.0,74.7,90,21.9,25,671.9,750,73.0,75,95.1,100,50.2,60,44.6,60

@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>About | Smart Farming</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+
+<body class="bg-slate-50 text-slate-800 min-h-screen">
+
+
+<!-- NAVBAR -->
+
+<nav class="bg-white border-b border-slate-200 sticky top-0 z-40">
+
+    <div class="max-w-7xl mx-auto px-5 lg:px-8">
+
+        <div class="h-20 flex items-center justify-between">
+
+
+            <!-- BRAND -->
+
+            <a
+                href="{{ url_for('dashboard') }}"
+                class="flex items-center gap-3"
+            >
+
+                <div
+                    class="w-11 h-11 rounded-xl
+                           bg-emerald-600
+                           text-white
+                           flex items-center justify-center"
+                >
+
+                    <svg class="w-6 h-6"
+                         fill="none"
+                         stroke="currentColor"
+                         viewBox="0 0 24 24">
+
+                        <path stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="1.8"
+                              d="M12 21c4.5-2.5 7-6.2 7-10.5C19 6.2 15.8 3 12 3S5 6.2 5 10.5C5 14.8 7.5 18.5 12 21z"/>
+
+                    </svg>
+
+                </div>
+
+                <div>
+
+                    <p class="font-bold">
+                        Smart Farming
+                    </p>
+
+                    <p class="text-xs text-slate-500">
+                        Soil Intelligence
+                    </p>
+
+                </div>
+
+            </a>
+
+
+            <!-- NAVIGATION -->
+
+            <div class="hidden md:flex items-center gap-2">
+
+                <a
+                    href="{{ url_for('dashboard') }}"
+                    class="px-4 py-2 rounded-lg
+                           text-slate-600
+                           hover:bg-slate-100
+                           text-sm"
+                >
+                    Dashboard
+                </a>
+
+                <a
+                    href="{{ url_for('prediction') }}"
+                    class="px-4 py-2 rounded-lg
+                           text-slate-600
+                           hover:bg-slate-100
+                           text-sm"
+                >
+                    Soil Prediction
+                </a>
+
+                <a
+                    href="{{ url_for('about') }}"
+                    class="px-4 py-2 rounded-lg
+                           bg-emerald-50
+                           text-emerald-700
+                           font-semibold
+                           text-sm"
+                >
+                    About
+                </a>
+
+            </div>
+
+
+            <div class="flex items-center gap-3">
+
+                <div
+                    class="w-10 h-10 rounded-full
+                           bg-emerald-100
+                           text-emerald-700
+                           flex items-center justify-center
+                           font-bold"
+                >
+                    {{ user_name[0]|upper }}
+                </div>
+
+                <a
+                    href="{{ url_for('logout') }}"
+                    class="hidden sm:block text-sm
+                           text-slate-500
+                           hover:text-slate-900"
+                >
+                    Logout
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+<!-- CONTENT -->
+
+<main class="max-w-6xl mx-auto px-5 lg:px-8 py-12">
+
+
+    <!-- HERO -->
+
+    <section
+        class="rounded-3xl
+               bg-gradient-to-br
+               from-emerald-700
+               to-teal-700
+               text-white
+               p-8 md:p-12
+               mb-8"
+    >
+
+        <span
+            class="inline-flex px-3 py-1
+                   rounded-full
+                   bg-white/10
+                   border border-white/10
+                   text-xs font-semibold"
+        >
+            ABOUT THE PROJECT
+        </span>
+
+        <h1 class="text-4xl md:text-5xl font-bold mt-5">
+            Smart Farming Soil Prediction
+        </h1>
+
+        <p
+            class="text-emerald-100
+                   text-lg
+                   leading-8
+                   max-w-3xl
+                   mt-5"
+        >
+            A machine learning based system designed to analyze
+            soil and environmental conditions and predict the
+            most likely soil type.
+        </p>
+
+    </section>
+
+
+    <!-- WHAT IT DOES -->
+
+    <section class="grid md:grid-cols-3 gap-5 mb-8">
+
+
+        <div
+            class="bg-white border border-slate-200
+                   rounded-2xl p-6"
+        >
+
+            <div
+                class="w-11 h-11 rounded-xl
+                       bg-emerald-50
+                       text-emerald-600
+                       flex items-center justify-center
+                       font-bold"
+            >
+                01
+            </div>
+
+            <h2 class="font-bold text-lg mt-5">
+                Enter Conditions
+            </h2>
+
+            <p class="text-sm text-slate-500
+                      leading-6 mt-2">
+                Provide N, P, K, soil pH, temperature,
+                humidity, season and water source.
+            </p>
+
+        </div>
+
+
+        <div
+            class="bg-white border border-slate-200
+                   rounded-2xl p-6"
+        >
+
+            <div
+                class="w-11 h-11 rounded-xl
+                       bg-blue-50
+                       text-blue-600
+                       flex items-center justify-center
+                       font-bold"
+            >
+                02
+            </div>
+
+            <h2 class="font-bold text-lg mt-5">
+                Machine Learning
+            </h2>
+
+            <p class="text-sm text-slate-500
+                      leading-6 mt-2">
+                The trained soil classification model
+                processes the supplied conditions.
+            </p>
+
+        </div>
+
+
+        <div
+            class="bg-white border border-slate-200
+                   rounded-2xl p-6"
+        >
+
+            <div
+                class="w-11 h-11 rounded-xl
+                       bg-violet-50
+                       text-violet-600
+                       flex items-center justify-center
+                       font-bold"
+            >
+                03
+            </div>
+
+            <h2 class="font-bold text-lg mt-5">
+                View Result
+            </h2>
+
+            <p class="text-sm text-slate-500
+                      leading-6 mt-2">
+                Receive the predicted soil type together
+                with the model confidence.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- TECHNOLOGY -->
+
+    <section
+        class="bg-white border border-slate-200
+               rounded-2xl p-7 md:p-9 mb-8"
+    >
+
+        <h2 class="text-2xl font-bold">
+            System Overview
+        </h2>
+
+        <p class="text-slate-500 leading-7 mt-4">
+            The application combines a Flask web application
+            with a trained machine learning soil prediction
+            model. User authentication, prediction history and
+            model inference are handled through the backend,
+            while the interface is built using responsive
+            TailwindCSS components.
+        </p>
+
+
+        <div class="grid md:grid-cols-2 gap-5 mt-7">
+
+
+            <div class="rounded-xl bg-slate-50 p-5">
+
+                <p class="text-xs uppercase
+                          tracking-wide
+                          font-bold
+                          text-slate-400">
+                    Backend
+                </p>
+
+                <p class="font-semibold mt-2">
+                    Python + Flask
+                </p>
+
+            </div>
+
+
+            <div class="rounded-xl bg-slate-50 p-5">
+
+                <p class="text-xs uppercase
+                          tracking-wide
+                          font-bold
+                          text-slate-400">
+                    Machine Learning
+                </p>
+
+                <p class="font-semibold mt-2">
+                    Trained Soil Classification Model
+                </p>
+
+            </div>
+
+
+            <div class="rounded-xl bg-slate-50 p-5">
+
+                <p class="text-xs uppercase
+                          tracking-wide
+                          font-bold
+                          text-slate-400">
+                    Frontend
+                </p>
+
+                <p class="font-semibold mt-2">
+                    HTML + TailwindCSS + JavaScript
+                </p>
+
+            </div>
+
+
+            <div class="rounded-xl bg-slate-50 p-5">
+
+                <p class="text-xs uppercase
+                          tracking-wide
+                          font-bold
+                          text-slate-400">
+                    Authentication
+                </p>
+
+                <p class="font-semibold mt-2">
+                    Secure Password Hashing
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CTA -->
+
+    <section
+        class="bg-slate-900
+               rounded-2xl
+               p-7 md:p-9
+               text-white
+               flex flex-col md:flex-row
+               md:items-center
+               md:justify-between
+               gap-5"
+    >
+
+        <div>
+
+            <h2 class="text-2xl font-bold">
+                Ready to analyze your soil?
+            </h2>
+
+            <p class="text-slate-400 mt-2">
+                Start a new machine learning prediction.
+            </p>
+
+        </div>
+
+
+        <a
+            href="{{ url_for('prediction') }}"
+            class="inline-flex justify-center
+                   px-6 py-3 rounded-xl
+                   bg-emerald-600
+                   hover:bg-emerald-500
+                   font-semibold"
+        >
+            Start Prediction
+        </a>
+
+    </section>
+
+</main>
+
+
+<!-- MOBILE NAV -->
+
+<div
+    class="md:hidden fixed bottom-0 left-0 right-0
+           bg-white border-t border-slate-200
+           z-50"
+>
+
+    <div class="grid grid-cols-3">
+
+        <a
+            href="{{ url_for('dashboard') }}"
+            class="py-3 text-center text-slate-500"
+        >
+            <span class="text-xs font-semibold">
+                Dashboard
+            </span>
+        </a>
+
+        <a
+            href="{{ url_for('prediction') }}"
+            class="py-3 text-center text-slate-500"
+        >
+            <span class="text-xs font-semibold">
+                Predict
+            </span>
+        </a>
+
+        <a
+            href="{{ url_for('about') }}"
+            class="py-3 text-center text-emerald-600"
+        >
+            <span class="text-xs font-semibold">
+                About
+            </span>
+        </a>
+
+    </div>
+
+</div>
+
+
+</body>
+</html>

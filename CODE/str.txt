@@ -1,0 +1,44 @@
+Folder PATH listing
+Volume serial number is 7A3C-D5E7
+C:.
+³   requirement.txt
+³   str.txt
+³   
+ÃÄÄÄBACKEND
+³   ³   create_test_dataset.py
+³   ³   DATA_PREPROCESSING.ipynb
+³   ³   DB.txt
+³   ³   inspect_dataset.ipynb
+³   ³   train_soil_model.ipynb
+³   ³   user.txt
+³   ³   
+³   ÀÄÄÄMODELS_soil
+³           soil_label_encoder.pkl
+³           soil_model_comparison.pkl
+³           soil_model_metadata.json
+³           soil_prediction_model.pkl
+³           soil_preprocessor.pkl
+³           
+ÃÄÄÄDATA_SET
+³       Crop recommendation dataset.csv
+³       test_dataset_all_crops.csv
+³       
+ÀÄÄÄFRONTEND
+    ³   app.py
+    ³   
+    ÃÄÄÄstatic
+    ³   ÃÄÄÄcss
+    ³   ³       style.css
+    ³   ³       
+    ³   ÃÄÄÄimages
+    ³   ÀÄÄÄjs
+    ³           app.js
+    ³           script.js
+    ³           
+    ÀÄÄÄtemplates
+            about.html
+            dashboard.html
+            login.html
+            prediction.html
+            register.html
+            

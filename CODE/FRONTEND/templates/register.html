@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Create Account | Smart Farming</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+
+<body class="min-h-screen bg-slate-100">
+
+    <div class="min-h-screen flex">
+
+
+        <!-- LEFT PANEL -->
+
+        <div class="hidden lg:flex lg:w-1/2
+                    bg-gradient-to-br
+                    from-emerald-700
+                    via-green-700
+                    to-teal-800
+                    text-white
+                    items-center">
+
+            <div class="px-16 xl:px-24">
+
+                <div class="w-14 h-14 rounded-2xl
+                            bg-white/15
+                            flex items-center justify-center
+                            mb-8">
+
+                    <svg class="w-8 h-8"
+                         fill="none"
+                         stroke="currentColor"
+                         viewBox="0 0 24 24">
+
+                        <path stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="1.8"
+                              d="M12 21c4.5-2.5 7-6.2 7-10.5C19 6.2 15.8 3 12 3S5 6.2 5 10.5C5 14.8 7.5 18.5 12 21z"/>
+
+                    </svg>
+
+                </div>
+
+                <h1 class="text-5xl font-bold">
+                    Start Your Smart
+                    Farming Journey
+                </h1>
+
+                <p class="text-emerald-100 mt-6 max-w-xl leading-7">
+                    Create your account and access an intelligent
+                    soil prediction platform designed to make
+                    agricultural analysis simpler.
+                </p>
+
+
+                <div class="mt-10 space-y-4">
+
+                    <div class="flex items-center gap-4">
+
+                        <div class="w-10 h-10 rounded-xl bg-white/10
+                                    flex items-center justify-center">
+
+                            <span class="font-bold">01</span>
+
+                        </div>
+
+                        <div>
+                            <p class="font-semibold">
+                                Enter soil conditions
+                            </p>
+
+                            <p class="text-sm text-emerald-100">
+                                Nutrients and environmental values
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="flex items-center gap-4">
+
+                        <div class="w-10 h-10 rounded-xl bg-white/10
+                                    flex items-center justify-center">
+
+                            <span class="font-bold">02</span>
+
+                        </div>
+
+                        <div>
+                            <p class="font-semibold">
+                                Run ML prediction
+                            </p>
+
+                            <p class="text-sm text-emerald-100">
+                                Analyze the entered conditions
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="flex items-center gap-4">
+
+                        <div class="w-10 h-10 rounded-xl bg-white/10
+                                    flex items-center justify-center">
+
+                            <span class="font-bold">03</span>
+
+                        </div>
+
+                        <div>
+                            <p class="font-semibold">
+                                View soil result
+                            </p>
+
+                            <p class="text-sm text-emerald-100">
+                                Get predicted soil and confidence
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- REGISTER -->
+
+        <div class="flex-1 flex items-center justify-center px-6 py-10">
+
+            <div class="w-full max-w-md">
+
+                <div class="bg-white border border-slate-200
+                            rounded-3xl shadow-xl
+                            p-8 md:p-10">
+
+                    <div class="mb-8">
+
+                        <p class="text-sm font-semibold text-emerald-600">
+                            Get started
+                        </p>
+
+                        <h2 class="text-3xl font-bold text-slate-900 mt-2">
+                            Create your account
+                        </h2>
+
+                        <p class="text-sm text-slate-500 mt-2">
+                            Register to use the Smart Farming platform.
+                        </p>
+
+                    </div>
+
+
+                    {% if error %}
+
+                    <div class="mb-6 rounded-xl border border-red-200
+                                bg-red-50 px-4 py-3 text-sm text-red-700">
+
+                        {{ error }}
+
+                    </div>
+
+                    {% endif %}
+
+
+                    <form method="POST" class="space-y-5">
+
+
+                        <!-- NAME -->
+
+                        <div>
+
+                            <label class="block text-sm font-medium mb-2">
+                                Full Name
+                            </label>
+
+                            <input
+                                type="text"
+                                name="name"
+                                required
+                                autocomplete="name"
+                                placeholder="Enter your name"
+                                class="w-full px-4 py-3.5 rounded-xl
+                                       border border-slate-300
+                                       bg-slate-50
+                                       outline-none
+                                       focus:bg-white
+                                       focus:ring-2
+                                       focus:ring-emerald-500"
+                            >
+
+                        </div>
+
+
+                        <!-- EMAIL -->
+
+                        <div>
+
+                            <label class="block text-sm font-medium mb-2">
+                                Email Address
+                            </label>
+
+                            <input
+                                type="email"
+                                name="email"
+                                required
+                                autocomplete="email"
+                                placeholder="you@example.com"
+                                class="w-full px-4 py-3.5 rounded-xl
+                                       border border-slate-300
+                                       bg-slate-50
+                                       outline-none
+                                       focus:bg-white
+                                       focus:ring-2
+                                       focus:ring-emerald-500"
+                            >
+
+                        </div>
+
+
+                        <!-- PASSWORD -->
+
+                        <div>
+
+                            <label class="block text-sm font-medium mb-2">
+                                Password
+                            </label>
+
+                            <input
+                                type="password"
+                                name="password"
+                                required
+                                minlength="6"
+                                autocomplete="new-password"
+                                placeholder="Minimum 6 characters"
+                                class="w-full px-4 py-3.5 rounded-xl
+                                       border border-slate-300
+                                       bg-slate-50
+                                       outline-none
+                                       focus:bg-white
+                                       focus:ring-2
+                                       focus:ring-emerald-500"
+                            >
+
+                        </div>
+
+
+                        <!-- CONFIRM -->
+
+                        <div>
+
+                            <label class="block text-sm font-medium mb-2">
+                                Confirm Password
+                            </label>
+
+                            <input
+                                type="password"
+                                name="confirm_password"
+                                required
+                                minlength="6"
+                                autocomplete="new-password"
+                                placeholder="Re-enter your password"
+                                class="w-full px-4 py-3.5 rounded-xl
+                                       border border-slate-300
+                                       bg-slate-50
+                                       outline-none
+                                       focus:bg-white
+                                       focus:ring-2
+                                       focus:ring-emerald-500"
+                            >
+
+                        </div>
+
+
+                        <button
+                            type="submit"
+                            class="w-full py-3.5 rounded-xl
+                                   bg-emerald-600
+                                   hover:bg-emerald-700
+                                   text-white
+                                   font-semibold
+                                   transition
+                                   shadow-lg
+                                   shadow-emerald-600/20"
+                        >
+                            Create Account
+                        </button>
+
+                    </form>
+
+
+                    <p class="text-center text-sm text-slate-500 mt-7">
+
+                        Already have an account?
+
+                        <a
+                            href="{{ url_for('login') }}"
+                            class="font-semibold text-emerald-600 hover:text-emerald-700"
+                        >
+                            Sign in
+                        </a>
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,147 @@
+# ============================================================
+# SMART FARMING SOIL PREDICTION ML - GITIGNORE
+# ============================================================
+
+# -------------------------
+# Python cache
+# -------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# -------------------------
+# Virtual environments
+# -------------------------
+.venv/
+venv/
+env/
+ENV/
+.env/
+*.venv
+
+# Conda environments
+.conda/
+conda-env/
+
+# -------------------------
+# Environment / secrets
+# -------------------------
+.env
+.env.*
+!.env.example
+
+# -------------------------
+# Jupyter Notebook
+# -------------------------
+# .ipynb_checkpoints/
+
+# # Jupyter temporary files
+# *.ipynb_checkpoints
+
+# -------------------------
+# Python packaging
+# -------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# -------------------------
+# Testing / coverage
+# -------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
+logs/
+
+# -------------------------
+# Flask / application temp
+# -------------------------
+instance/
+*.pid
+
+# -------------------------
+# Local database / runtime files
+# -------------------------
+*.db
+*.sqlite
+*.sqlite3
+
+# -------------------------
+# Local user and prediction data
+# -------------------------
+# Keep these out of Git if they contain real user information
+# BACKEND/user.txt
+# BACKEND/DB.txt
+
+# -------------------------
+# IDE files
+# -------------------------
+.vscode/
+.idea/
+
+# VS Code workspace
+*.code-workspace
+
+# -------------------------
+# Operating system files
+# -------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -------------------------
+# Temporary files
+# -------------------------
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+~*
+
+# -------------------------
+# Model training temporary files
+# -------------------------
+*.h5
+*.hdf5
+*.keras
+*.ckpt
+*.onnx
+
+# -------------------------
+# Large generated datasets
+# -------------------------
+# Uncomment these if datasets become too large for GitHub
+# DATA_SET/*.csv
+
+# -------------------------
+# Large generated files
+# -------------------------
+*.zip
+*.rar
+*.7z
+
+# -------------------------
+# Node / frontend dependencies
+# -------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# -------------------------
+# Cache directories
+# -------------------------
+.cache/
+.pyre/
+.mypy_cache/
+.ruff_cache/
