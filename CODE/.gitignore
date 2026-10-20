@@ -145,3 +145,7 @@ pnpm-debug.log*
 .pyre/
 .mypy_cache/
 .ruff_cache/
+
+
+
+*.pkl
